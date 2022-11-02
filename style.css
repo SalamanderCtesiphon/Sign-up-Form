@@ -9,6 +9,17 @@
 }
 
 .body {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+}
+
+.left-column {
+    flex: 1;
+}
+
+.left-column-image {
+
+}
+
+.right-column {
+    flex: 2;
 }
