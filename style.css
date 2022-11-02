@@ -1,25 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-.main {
-    background-color: rgb(29, 29, 29);
-}
-
-.body {
+img {
     height: 100vh;
+    width: auto;
 }
 
-.left-column {
-    flex: 1;
-}
-
-.left-column-image {
-
-}
-
-.right-column {
-    flex: 2;
-}
