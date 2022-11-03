@@ -14,15 +14,26 @@ body {
 }
 
 .left-column {
-    border: 1px solid black;
-    background-color: white;
-    width: 23vw;
+    width: 27vw;
     height: 100vh;
 }
 
+img {
+    width: 27vw;
+    height: 100vh;
+}
+
+.logo-banner {
+    width: 27vw;
+    height: 15vh;
+    background-color: rgba(20, 20, 20, 0.5);
+    position: absolute;
+    top: 22vh;
+    right: 59vw;
+}
 .right-column {
     border: 1px solid black;
     background-color: white;
-    width: 48vw;
+    width: 45vw;
     height: 100vh;
 }
