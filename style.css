@@ -30,7 +30,32 @@ img {
     position: absolute;
     top: 22vh;
     right: 59vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.logo-icon {
+    background:url(odin-lined.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 12vh;
+    width: 12vh;
+    margin-right: -1.5vw;
+
+}
+
+@font-face {
+    font-family: 'Norse Bold';
+    src: url(Norse-Bold.otf);
+}
+.logo-text {
+    color: white;
+    font-family: 'Norse Bold';
+    font-size: 5.5em;
+    
+}
+
 .right-column {
     border: 1px solid black;
     background-color: white;
