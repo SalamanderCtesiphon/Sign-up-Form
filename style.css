@@ -1,11 +1,31 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 img {
+    width: 30vw;
     height: 100vh;
-    width: auto;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(86, 85, 85);
+}
+.container {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column {
+    display: flex;
+}
