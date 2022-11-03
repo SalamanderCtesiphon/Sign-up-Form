@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(48, 47, 47);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.left-column {
+    border: 1px solid black;
+    background-color: white;
+    width: 23vw;
+    height: 100vh;
+}
+
+.right-column {
+    border: 1px solid black;
+    background-color: white;
+    width: 48vw;
+    height: 100vh;
+}
