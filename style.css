@@ -76,4 +76,38 @@ a {
     background-color: white;
     width: 45vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.area {
+    height: 30vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.area-1 { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 9vh;
+}
+
+p {
+    margin-right: 16vh;
+    margin-left: 4vh;
+}
+
+#middle-space {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.area-2 {
+    box-shadow: 0 0 10px 0 rgba(129, 128, 128, 0.5);
+    
 }
