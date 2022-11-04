@@ -1,11 +1,4 @@
-//add an event listener to the submit button
-document.getElementById('submit').addEventListener('click', goToPage);
 
-//function to redirect to the next page
-function goToPage() {
-    window.location.href = 'test.html';
-    
-}
 
 
 /*  //add an event listener to the confirm password field and compare to the password field
