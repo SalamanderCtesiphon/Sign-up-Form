@@ -150,6 +150,11 @@ button {
     font-weight: bold;
 }
 
+button:hover {
+    background-color: #4A5B3C;
+    border: 2px solid #4A5B3C;
+}
+
 .log-in {
     color: black;
     font-size: .7em;
