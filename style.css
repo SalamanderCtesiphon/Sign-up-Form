@@ -137,3 +137,25 @@ input {
     border: 1px solid rgb(200, 198, 198);
     border-radius: 5px;
 }
+
+button {
+    background-color: #596D48;
+    margin-left: 4vh;
+    margin-top: 4vh;
+    color: white;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 1vh;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.log-in {
+    color: black;
+    font-size: .7em;
+    margin-top: 1.5vh;
+}
+
+#link {
+    font-size: .88em;
+}
