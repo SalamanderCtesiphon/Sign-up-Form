@@ -5,8 +5,6 @@ function validate_password() {
     var confirmPassword = document.getElementById('confirm-password').value;
     while (password != confirmPassword) {
         document.getElementById('message').style.color = 'red';
-        document.getElementById('message').style.paddingTop = '-10px';
-        document.getElementById('message').style.marginTop = '-10px';
         document.getElementById('message').innerHTML = '* Use same password';
         break;
     }
